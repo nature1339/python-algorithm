@@ -1,0 +1,22 @@
+n = int(input())
+Ai = int(input())
+B,C = map(int(input).split())
+
+감독의 최소값 B+C
+
+
+B                     C
+
+감독수  학생수   감독수  학생수
+B*n           an      C*m      (Ai-a)m
+
+(Ai-a)m = Ai % a*Bn
+
+cm = (Ai - a)//
+
+을   나눈 몫
+
+Ai-a = Ai로 나눈 나머지
+
+우리가 구하는것은 
+Bn +Cm
