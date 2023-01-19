@@ -1,0 +1,44 @@
+
+폴더의 우클릭해서 > 폴더 들어가서> git bash here
+
+1. git init : 관리할 로컬 폴더(레포지토리)에 버전관리를 해줄 .git 폴더를 추가하는 것.
+
+2. git add . : 버전관리를 하기 위해서는 변화사항을 체크할 수 있어야함. 그러기 위해 파일을 트래킹 하는 것.
+3. git commit -m "메세지" : 변화사항들을 모아 하나의 버전으로 저장하는 것.
+
+>git commit -m -> 메세지 안쓰고싶으면 안써도 됨, 쓰고싶을때만
+
+4. git remote add origin "깃허브 주소" : 현재 나의 로컬 레포지토리와 나의 원격 레포지토리를 연결. 
+  
+>git remote add origin https://github.com/nature1339/portfolio2.git   -> 지금은 연결되서 또할필요없
+
+
+5. git push origin(원격레포리토리 이름) mater(브랜치이름) : 깃허브의 remote repository에 나의 local repository의 버전기록을 업데이트
+
+브랜치 : 버전관리의 나무 가지?
+
+>git push origin mater
+
+===========
+
+첨에 우클릭 git bash here안될때
+왼쪽 ms office창 열어서 git 앱 열고
+cd e 하면 e드라이브로 감
+> cd Dropbox
+> cd "a 문제집_파이썬 new"
+> git init  --> 처음 시작할때만
+(cd  .. 현재폴더에서 나가기)
+==========
+
+수정, 클라우드에 올리기
+
+
+2. git add . : 버전관리를 하기 위해서는 변화사항을 체크할 수 있어야함. 그러기 위해 파일을 트래킹 하는 것.
+3. git commit -m "메세지" : 변화사항들을 모아 하나의 버전으로 저장하는 것.
+
+5. git push origin(원격레포리토리 이름) mater(브랜치이름) : 깃허브의 remote repository에 나의 local repository의 버전기록을 업데이트
+
+
+CLI : Command Line Interface
+ls 
+폴더리스트
